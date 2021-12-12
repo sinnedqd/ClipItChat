@@ -6,7 +6,7 @@ PogU,1.0
 LUL,1.0
 LULW,1.0
 WTF,0.7
-OMG,0.5
+OMG,0.7
 Clip,1.0
 Holy shit,0.4
 wow,0.3
@@ -86,3 +86,9 @@ DansGame,0.7
 MrDestructoid,0.6
 POGGERS,1.0
 4Head,1.0
+KKona,0.5
+KKool,0.5
+monkaS,0.7
+monkaW,0.7
+MonkaS,0.7
+MonkaW,0.7
