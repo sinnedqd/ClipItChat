@@ -11,7 +11,7 @@ def pickle_to_csv(pathname, outfile):
     print("Finished with " + outfile)
 
 def score_csv(pathname, outfile):
-    df = pd.read_csv("finished/xqcow.csv")
+    df = pd.read_csv(pathname)
     df.drop('Unnamed: 0', inplace=True, axis=1)
 
     keywords_doc = open("keywords.txt", "r")
@@ -44,12 +44,19 @@ def score_csv(pathname, outfile):
         print("This is the calculated Score: %f\n" %(score))
     df['scores'] = scores
 
-    df.to_csv("scored/xqcow.csv")
+    df.to_csv(outfile)
 
 def main():
+
+    data_dir = "data"
     outfile = "finished"
     score_dir = "scored"
-    
+    for filename in os.listdir(data_dir):
+        filepath = os.path.join(data_dir, filename)
+        outpath = os.path.join(outfile, filename)
+        pickle_to_csv(filepath, outpath)
+
+
     for filename in os.listdir(outfile):
         filepath = os.path.join(outfile, filename)
         outfile_path = os.path.join(score_dir,filename)
