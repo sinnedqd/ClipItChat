@@ -1,78 +1,88 @@
-Poggers,
-OMEGALUL,
-Pog,
-PogChamp,
-PogU,
-LUL,
-LULW,
-WTF,
-OMG,
-Clip,
-Holy shit,
-wow,
-ur nuts,
-crazy,
-no shot,
-no way,
-dirty,
-omg,
-Omfg,
-holy moly,
-holy cow,
-poggers,
-xqcL,
-PepePls,
-ez,
-ggez,
-ggwp,
-Gg,
-F,
-PagMan,
-HYPERPOGGERS,
-xqcbless,
-Nice,
-Insane,
-Fuck,
-what the fuck,
-crazy,
-nutty,
-cracked,
-KomodoHype,
-xqcLove,
-clapped,
-rolled,
-clapped,
-XD,
-Hype,
-Clap,
-KEK,
-KEKW,
-Kek,
-topkek,
-LOL,
-lol,
-xd,
-juice,
-wut,
-gee gee,
-holy moly,
-holy balls,
-shiet,
-OMEGALUL,
-rofl,
-lmao,
-lmfao,
-yikes,
-yikers,
-tilt.
-Tilted,
-SHEESH
-REEEEEEE
-DAMN,
-Good Shit,
-Vac,
-PJSalt,
-Hahaa,
-PogU,
-Jebaited,
-MonkaS,
+Poggers,1.0
+OMEGALUL,1.0
+Pog,1.0
+PogChamp,1.0
+PogU,1.0
+LUL,1.0
+LULW,1.0
+WTF,0.7
+OMG,0.5
+Clip,1.0
+Holy shit,0.4
+wow,0.3
+ur nuts,0.3
+crazy,0.4
+no shot,0.5
+no way,0.3
+dirty,0.2
+omg,0.2
+Omfg,0.3
+holy moly,0.3
+holy cow,0.3
+poggers,0.4
+xqcL,0.1
+PepePls,0.1
+ez,0.45
+EZ,0.85
+Ez,0.5
+ggez,0.3
+GGEZ,0.7
+GG,0.4
+ggwp,0.2
+Gg,0.3
+F,0.2
+PagMan,1.0
+HYPERPOGGERS,0.8
+xqcbless,0.1
+Nice,0.75
+Insane,0.75
+Fuck,0.2
+what the fuck,0.5
+crazy,0.4
+nutty,0.4
+cracked,0.5
+KomodoHype,1.0
+xqcLove,0.1
+clapped,0.7
+rolled, 0.4
+clapped, 0.3
+XD, 0.7
+Hype, 0.3
+Clap, 0.7
+KEK,1.0
+KEKW,1.0
+Kek,1.0
+topkek,1.0
+LOL,0.7
+lol,0.4
+xd,0.2
+juice,0.1
+wut,0.1
+gee gee,0.1
+holy moly,0.5
+holy balls,0.5
+shiet,0.2
+OMEGALUL,1.0
+rofl,0.5
+lmao,0.7
+lmfao,0.6
+yikes,0.3
+yikers,0.3
+tilt,0.6
+Tilted,0.6
+SHEESH,1.0
+REEEEEEE,0.2
+DAMN,1.0
+Good Shit,0.4
+Vac,1.0
+PJSalt,0.5
+Hahaa,0.5
+PogU,1.0
+Jebaited,0.5
+MonkaS,0.5
+FeelsGoodMan,0.5
+WutFace,0.7
+DansGame,0.7
+MrDestructoid,0.6
+POGGERS,1.0
+4Head,1.0
