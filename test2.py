@@ -1,15 +1,12 @@
-import os
 import glob
 import pandas as pd
-os.chdir("C:\\Users\\omar_\\Documents\\Code\\School\\CS_486\\CS-486\\Projects\\ClipItChat\\scored")
-
 
 extension = 'csv'
-all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
+scored_dir = 'scored'
 
-#combine all files in the list
-combined_csv = pd.concat([pd.read_csv(f) for f in all_filenames ])
+list_of_csv_files = glob.glob(scored_dir + '/*.csv')
+list_of_csv_files.sort()
 
-#export to csv
-os.chdir("C:\\Users\\omar_\\Documents\\Code\\School\\CS_486\\CS-486\\Projects\\ClipItChat")
-combined_csv.to_csv( "combined_csv.csv", index=False, encoding='utf-8-sig')
+df = pd.concat(map(pd.read_csv, list_of_csv_files), ignore_index=True)
+df.drop(["Unnamed: 0", 'created_at'],inplace=True, axis=1)
+df.to_csv("combined/combined_csv.csv")
