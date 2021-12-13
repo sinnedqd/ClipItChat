@@ -5,8 +5,12 @@ import pandas as pd
 def pickle_to_csv(pathname, outfile):
     df = pd.read_pickle(pathname)
     df = df.sample(n=1000)
-    df = df.drop(columns=['Unnamed: 0', 'channel_id', 'commenter_id', 'commenter_type', 'fragments', 'offset', 'video_id', 'updated_at'], inplace=True, axis=1)
+    df.drop(columns=['channel_id', 'commenter_id', 'commenter_type', 'fragments', 'offset', 'video_id', 'updated_at'], inplace=True, axis=1)
     print("Now converting df to CSV!")
+    base = os.path.splitext(outfile)[0]
+    outfile = base + ".csv"
+    outfile.replace(".pkl", ".csv")
+    print(outfile)
     print(df)
     df.to_csv(outfile)
     print("Finished with " + outfile)
@@ -59,10 +63,11 @@ def main():
     data_dir = "data"
     outfile = "finished"
     score_dir = "scored"
-    # for filename in os.listdir(data_dir):
-    #     filepath = os.path.join(data_dir, filename)
-    #     outpath = os.path.join(outfile, filename)
-    #     pickle_to_csv(filepath, outpath)
+    for filename in os.listdir(data_dir):
+        print(filename)
+        filepath = os.path.join(data_dir, filename)
+        outpath = os.path.join(outfile, filename)
+        pickle_to_csv(filepath, outpath)
 
     for filename in os.listdir(outfile):
         filepath = os.path.join(outfile, filename)
